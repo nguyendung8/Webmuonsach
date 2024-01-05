@@ -57,7 +57,7 @@
                      <div class="name"><?php echo $fetch_products['describes']; ?></div>
                      <div class="book-action">
                         <a href="book_detail.php?book_id=<?php echo $fetch_products['id'] ?>" class="view-book" >Xem thông tin sách</a>
-                        <button class="borrow-book" type="submit">Mượn sách</button>
+                        <a href="book_borrow.php?book_id=<?php echo $fetch_products['id'] ?>" class="borrow-book" >Mượn sách</a>
                      </div>
                   </form>
       <?php
